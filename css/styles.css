@@ -1,0 +1,32 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+
+
+
+
+.background-image {
+    background-image: url(../img/post-it.jpg);
+    height: 1000px;
+    background-size: cover;
+}
+
+.form-inline {
+    margin-top: 20px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.open {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
