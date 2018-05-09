@@ -10,17 +10,17 @@
 </head>
 <body>
     <div class="container-fluid background-image">
-        <form class="form-inline text-center">
+        <form class="form-inline text-center" id="form">
             <div class="form-group">
                 <label for="taskEntry" class="roboto">Task</label>
-                <input type="text" class="form-control" id="taskEntry" placeholder="Chop Wood">
-                <button type="button" class="btn btn-default">Submit</button>
+                <input type="text" class="form-control" id="input" placeholder="Chop Wood">
+                <button type="btn" class="btn btn-default" id="btn">Add</button>
         </div>
     
         <div class="row">
             <div class="col-xs-6 center">
                 <h1 class="open">To Do</h1>
-                <ul id="toDoList">
+                <ul id="list">
 
                 </ul>
             </div>
@@ -35,6 +35,5 @@
     
     
     <script src="js/scripts.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
