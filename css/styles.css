@@ -11,8 +11,11 @@
     background-size: cover;
 }
 
-.form-inline {
+.input-row {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
+    
 }
 
 .roboto {
@@ -29,4 +32,9 @@
 
 .open {
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.list-styles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
